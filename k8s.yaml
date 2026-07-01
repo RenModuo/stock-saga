@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: stock-saga
-          image: yklee2002/stock-saga:latest
+          image: uochmod/stock-saga:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
